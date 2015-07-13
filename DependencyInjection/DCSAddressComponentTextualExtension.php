@@ -26,5 +26,6 @@ class DCSAddressComponentTextualExtension extends Extension
         $container->setAlias('dcs_address_component_textual.manager.address_textual', 'dcs_address_component_textual.manager.address_textual.default');
 
         $loader->load('form.xml');
+        $loader->load('listener.xml');
     }
 }

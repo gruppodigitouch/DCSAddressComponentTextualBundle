@@ -1,0 +1,25 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <mapped-superclass name="DCS\AddressComponent\TextualBundle\Model\AddressTextual">
+
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO" />
+        </id>
+
+        <field name="address1" column="address1" type="string" length="255" nullable="true" />
+
+        <field name="address2" column="address2" type="string" length="255" nullable="true" />
+
+        <field name="city" column="city" type="string" length="255" nullable="true" />
+
+        <field name="province" column="province" type="string" length="255" nullable="true" />
+
+        <field name="cap" column="cap" type="string" length="255" nullable="true" />
+
+        <field name="country" column="country" type="string" length="255" nullable="true" />
+
+    </mapped-superclass>
+
+</doctrine-mapping>

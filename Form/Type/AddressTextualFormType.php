@@ -39,7 +39,7 @@ class AddressTextualFormType extends AbstractType
                 'required' => false,
                 'label' => 'form.label.zip_code',
             ))
-            ->add('country', 'text', array(
+            ->add('country', 'country', array(
                 'required' => false,
                 'label' => 'form.label.country',
             ))

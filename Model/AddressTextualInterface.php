@@ -74,19 +74,19 @@ interface AddressTextualInterface extends AddressComponentInterface
     public function setProvince($province = null);
 
     /**
-     * Get cap
+     * Get zipCode
      *
      * @return string
      */
-    public function getCap();
+    public function getZipCode();
 
     /**
-     * Set cap
+     * Set zipCode
      *
-     * @param string $cap
+     * @param string $zipCode
      * @return AddressTextualInterface
      */
-    public function setCap($cap = null);
+    public function setZipCode($zipCode = null);
 
     /**
      * Get country

@@ -16,7 +16,7 @@
 
         <field name="province" column="province" type="string" length="255" nullable="true" />
 
-        <field name="cap" column="cap" type="string" length="255" nullable="true" />
+        <field name="zipCode" column="zip_code" type="string" length="255" nullable="true" />
 
         <field name="country" column="country" type="string" length="255" nullable="true" />
 

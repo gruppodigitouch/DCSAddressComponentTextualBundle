@@ -36,7 +36,7 @@ abstract class AddressTextual implements AddressTextualInterface
     /**
      * @var string
      */
-    protected $cap;
+    protected $zipCode;
 
     /**
      * @var string
@@ -92,14 +92,14 @@ abstract class AddressTextual implements AddressTextualInterface
         return $this;
     }
 
-    public function getCap()
+    public function getZipCode()
     {
-        return $this->cap;
+        return $this->zipCode;
     }
 
-    public function setCap($cap = null)
+    public function setZipCode($zipCode = null)
     {
-        $this->cap = $cap;
+        $this->zipCode = $zipCode;
         return $this;
     }
 

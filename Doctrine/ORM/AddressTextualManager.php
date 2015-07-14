@@ -29,10 +29,13 @@ class AddressTextualManager extends BaseAddressTextualManager
     /**
      * @inheritdoc
      */
-    public function save(AddressComponentInterface $addressComponent)
+    public function save(AddressComponentInterface $addressComponent, $andFlush = true)
     {
         $this->entityManager->persist($addressComponent);
-        $this->entityManager->flush();
+
+        if ($andFlush) {
+            $this->entityManager->flush();
+        }
     }
 
     /**

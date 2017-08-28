@@ -1,5 +1,5 @@
 {
-    "name": "damianociarla/address-component-textual-bundle",
+    "name": "gruppodigitouch/address-component-textual-bundle",
     "description": "This Bundle provides functionality for managing address in Symfony2 applications",
     "type": "library",
     "keywords": [
